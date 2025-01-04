@@ -34,69 +34,17 @@ export const STREAMING_PROVIDERS = [
 ];
 
 export const VIDEO_PROVIDERS = [
-  {
-    id: 'vidsrc',
-    name: 'Vidsrc',
-    quality: '4K',
-    embedUrl: (type: string, id: string) => 
-      `https://vidsrc.dev/embed/${type}/${id}${type === 'tv' ? '/1/1' : ''}`
-  },
-  {
-    id: 'superembed',
-    name: 'SuperEmbed',
-    quality: '1080p',
-    embedUrl: (type: string, id: string) =>
-      `https://multiembed.mov/?video_id=${id}&tmdb=1${type === 'tv' ? '&s=1&e=1' : ''}`
-  },
-  {
-    id: 'vidplay',
-    name: 'VidPlay',
-    quality: '1080p',
-    embedUrl: (type: string, id: string) =>
-      `https://vidplay.site/e/${type}/${id}${type === 'tv' ? '/1/1' : ''}`
-  },
-  {
-    id: 'smashystream',
-    name: 'SmashyStream',
-    quality: '4K',
-    embedUrl: (type: string, id: string) =>
-      `https://embed.smashystream.com/${type}/${id}${type === 'tv' ? '/1/1' : ''}`
-  }
-];
+
+
+  // ADD STREAMING LINK 
+
 
 export const DOWNLOAD_PROVIDERS = [
-  {
-    id: 'torrentgalaxy',
-    name: 'TorrentGalaxy',
-    quality: '4K HDR',
-    type: 'Torrent',
-    icon: 'https://torrentgalaxy.to/favicon.ico',
-    searchUrl: 'https://torrentgalaxy.to/torrents.php?search=',
-    features: ['HDR', 'Dolby Vision', 'Atmos'],
-    releaseGroup: 'TGx'
-  },
-  {
-    id: '1337x',
-    name: '1337x',
-    quality: '1080p',
-    type: 'Torrent',
-    icon: 'https://1337x.to/favicon.ico',
-    searchUrl: 'https://1337x.to/search/',
-    features: ['x264', 'DTS'],
-    releaseGroup: 'RARBG'
-  },
-  {
-    id: 'yts',
-    name: 'YTS',
-    quality: '1080p',
-    type: 'Magnet',
-    icon: 'https://yts.mx/assets/images/website/favicon.ico',
-    searchUrl: 'https://yts.mx/browse-movies/',
-    features: ['x264', 'AAC'],
-    releaseGroup: 'YTS'
-  }
-];
 
+
+  //ADD DOWMLAOD PROVIDER LINK 
+
+  
 export const GENRES = {
   movie: [
     { id: 28, name: 'Action' },
