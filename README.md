@@ -24,8 +24,7 @@ MovFlix is a modern streaming platform built with React, TypeScript, and Tailwin
 - Frontend: React 18 with TypeScript
 - Routing: React Router v6
 - Styling: Tailwind CSS
-- State Management: Zustand![Screenshot_4-1-2025_223827_localhost](https://github.com/user-attachments/assets/272dd4ab-111a-476a-8403-7894a2f9a84a)
-
+- State Management: Zustand
 - Data Fetching: React Query & Axios
 - Icons: Lucide React
 - Build Tool: Vite
