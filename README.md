@@ -1,6 +1,10 @@
 # MovFlix - Stream Movies, TV Shows & Anime
+   ## Home Page 
+![Screenshot_4-1-2025_223827_localhost](https://github.com/user-attachments/assets/e0c05e0a-5cd4-425f-baa8-7be5405bf47d)
 
+  ## Detail Page 
 
+  ![Screenshot_4-1-2025_22379_localhost](https://github.com/user-attachments/assets/10349b73-248f-4742-b4b2-9a78f48c2eea)
 
 MovFlix is a modern streaming platform built with React, TypeScript, and Tailwind CSS that offers a seamless experience for discovering and watching movies, TV shows, and anime.
 
@@ -20,7 +24,8 @@ MovFlix is a modern streaming platform built with React, TypeScript, and Tailwin
 - Frontend: React 18 with TypeScript
 - Routing: React Router v6
 - Styling: Tailwind CSS
-- State Management: Zustand
+- State Management: Zustand![Screenshot_4-1-2025_223827_localhost](https://github.com/user-attachments/assets/272dd4ab-111a-476a-8403-7894a2f9a84a)
+
 - Data Fetching: React Query & Axios
 - Icons: Lucide React
 - Build Tool: Vite
