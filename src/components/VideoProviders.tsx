@@ -11,55 +11,7 @@ interface VideoProvider {
 
 const providers: VideoProvider[] = [
   // Streaming Providers
-  {
-    id: 'vidsrc',
-    name: 'Pro',
-    quality: '4K',
-    type: 'stream',
-    embedUrl: (id, type) => `https://vidsrc.dev/embed/${type}/${id}${type === 'tv' ? '/1/1' : ''}`,
-  },
-  {
-    id: 'hnembed',
-    name: 'Alpha',
-    quality: '1080p',
-    type: 'stream',
-    embedUrl: (id, type) => `https://hnembed.cc/embed/${type}/${id}`,
-  },
-  {
-    id: 'multiembed',
-    name: 'Multi',
-    quality: '1080p',
-    type: 'stream',
-    embedUrl: (id, type) => `https://multiembed.mov/?video_id=${id}&tmdb=1${type === 'tv' ? '&s=1&e=1' : ''}`,
-  },
-  {
-    id: 'vidlink',
-    name: 'Beta',
-    quality: '1080p',
-    type: 'stream',
-    embedUrl: (id, type) => type === 'movie' ? `https://vidlink.pro/movie/${id}` : `https://vidlink.pro/tv/${id}/1/1`,
-  },
-  {
-    id: 'embedsoap',
-    name: 'Gaama',
-    quality: '1080p',
-    type: 'stream',
-    embedUrl: (id, type) => type === 'movie' ? `https://www.embedsoap.com/embed/movie/${id}` : `https://www.embedsoap.com/embed/tv/${id}/1/1`,
-  },
-  {
-    id: 'autoembed',
-    name: 'Hindi',
-    quality: '1080p',
-    type: 'stream',
-    embedUrl: (id, type) => type === 'movie' ? `https://player.autoembed.cc/embed/movie/${id}` : `https://player.autoembed.cc/embed/tv/${id}/1/1`,
-  },
-  {
-    id: 'smashy',
-    name: 'Delta',
-    quality: '4K',
-    type: 'stream',
-    embedUrl: (id, type) => type === 'movie' ? `https://player.smashy.stream/movie/${id}` : `https://player.smashy.stream/tv/${id}/1/1`,
-  },
+   
   // Trailer Providers
   {
     id: 'youtube',
