@@ -99,4 +99,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## 📧 Contact
 
 - Your Name - ABHISHEK SINGH
-- Project Link: https://github.com/beinglazycoder/movflix
+- Project Link: https://github.com/BeingLazyCoder/MovFlix-Stream-Movies-TV-Shows-and-Anime
