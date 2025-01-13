@@ -78,8 +78,8 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.ico', 'robots.txt', 'apple-touch-icon.png'],
       manifest: {
-        name: 'MovFlix',
-        short_name: 'MovFlix',
+        name: 'StreamFlix',
+        short_name: 'StreamFlix',
         theme_color: '#0a1014',
         background_color: '#0a1014',
         display: 'standalone',
